@@ -61,3 +61,7 @@ Vue.component( AntDesignVue.Popover.name, AntDesignVue.Popover );
 Vue.component( AntDesignVue.Progress.name, AntDesignVue.Progress );
 Vue.component( AntDesignVue.Select.name, AntDesignVue.Select );
 Vue.component( AntDesignVue.Menu.name, AntDesignVue.Menu );
+Vue.component( AntDesignVue.Layout.Sider.name, AntDesignVue.Layout.Sider );
+Vue.component( AntDesignVue.Drawer.name, AntDesignVue.Drawer );
+Vue.component( AntDesignVue.Radio.name, AntDesignVue.Radio );
+Vue.component( AntDesignVue.Radio.Group.name, AntDesignVue.Radio.Group );

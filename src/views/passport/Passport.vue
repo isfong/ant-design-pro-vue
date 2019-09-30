@@ -6,7 +6,8 @@
                     <div class="header">
                         <router-link to="/">
                             <img alt="logo" class="logo" :src="logo"/>
-                            <span class="title">Ant Design</span>
+<!--                            <span class="title">Ant Design</span>-->
+                            <span class="title">Ev Foo</span>
                         </router-link>
                     </div>
                     <div class="desc">

@@ -22,7 +22,6 @@
 </template>
 
 <script>
-    import { check }          from '../../../plugins/auth';
     import ConsoleSideSubMenu from './console-side-sub-menu/ConsoleSideSubMenu';
 
     export default {
@@ -73,9 +72,9 @@
             getMenuData( routes = [], parentKeys = [], selectedKey ) {
                 const menuData = [];
                 for ( let item of routes ) {
-                    if ( item.meta && item.meta.authority && !check( item.meta.authority ) ) {
+                    /*if ( item.meta && item.meta.authority && !check( item.meta.authority ) ) {
                         continue;
-                    }
+                    }*/
                     if ( item.name && !item.hideInMenu ) {
                         this.openKeysMap[ item.path ] = parentKeys;
                         this.selectedKeysMap[ item.path ] = [ selectedKey || item.path ];
