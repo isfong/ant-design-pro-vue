@@ -1,6 +1,6 @@
 import Vue    from 'vue';
 import Router from 'vue-router';
-import Home   from './views/Home.vue';
+import Home   from '@/views/Home';
 
 Vue.use( Router );
 
@@ -17,7 +17,7 @@ export default new Router( {
             path: '/passport',
             name: 'passport',
             hideInMenu: true,
-            component: () => import('./views/passport/Passport.vue'),
+            component: () => import('@/views/passport/Passport.vue'),
             children: [
                 {
                     path: '/passport',
@@ -26,12 +26,12 @@ export default new Router( {
                 {
                     path: '/passport/sign-in',
                     name: 'sign-in',
-                    component: () => import('./views/passport/sign-in/SignIn.vue'),
+                    component: () => import('@/views/passport/sign-in/SignIn.vue'),
                 },
                 {
                     path: '/passport/sign-up',
                     name: 'sign-up',
-                    component: () => import('./views/passport/sign-up/SignUp.vue'),
+                    component: () => import('@/views/passport/sign-up/SignUp.vue'),
                 },
             ],
         },
