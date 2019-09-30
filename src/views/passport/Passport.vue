@@ -21,8 +21,8 @@
 </template>
 
 <script>
-    import GlobalFooter from '../../components/global-footer/GlobalFooter';
-    import logo         from '../../assets/logo.png';
+    import logo         from '@/assets/logo.png';
+    import GlobalFooter from '@/components/global-footer/GlobalFooter';
 
     export default {
         name: 'Passport',
