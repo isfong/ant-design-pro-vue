@@ -1,6 +1,5 @@
 import Vue          from 'vue';
 import AntDesignVue from 'ant-design-vue';
-import Authorized   from '../components/authorized/Authorized';
 
 const ALayout = Vue.component( 'a-layout', {
     name: 'ALayout',
@@ -62,5 +61,3 @@ Vue.component( AntDesignVue.Popover.name, AntDesignVue.Popover );
 Vue.component( AntDesignVue.Progress.name, AntDesignVue.Progress );
 Vue.component( AntDesignVue.Select.name, AntDesignVue.Select );
 Vue.component( AntDesignVue.Menu.name, AntDesignVue.Menu );
-
-Vue.component( Authorized.name, Authorized );
